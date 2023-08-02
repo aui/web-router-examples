@@ -16,13 +16,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@web-widget/html": "workspace:*",
-    "@web-widget/koa": "workspace:*",
-    "@web-widget/react": "workspace:*",
-    "@web-widget/schema": "workspace:*",
-    "@web-widget/vue": "workspace:*",
-    "@web-widget/web-router": "workspace:*",
-    "@web-widget/web-widget": "workspace:*",
+    "@web-widget/html": "latest",
+    "@web-widget/koa": "latest",
+    "@web-widget/react": "latest",
+    "@web-widget/schema": "latest",
+    "@web-widget/vue": "latest",
+    "@web-widget/web-router": "latest",
+    "@web-widget/web-widget": "latest",
     "koa": "^2.14.2",
     "koa-connect": "^2.1.0",
     "koa-send": "^5.0.1",
@@ -36,12 +36,13 @@
     "@types/react-dom": "^18.0.6",
     "@vitejs/plugin-react": "^4.0.0",
     "@vitejs/plugin-vue": "^4.2.3",
-    "@web-widget/builder": "workspace:*",
+    "@web-widget/builder": "latest",
     "build-worker": "^0.2.2",
     "tsup": "^6.7.0",
     "typescript": "^5.0.4",
     "vite": "^4.3.9"
   },
+  "packageManager": "pnpm@7.9.5",
   "engines": {
     "node": ">=18"
   }
