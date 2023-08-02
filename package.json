@@ -39,8 +39,8 @@
     "@web-widget/builder": "latest",
     "build-worker": "^0.2.2",
     "tsup": "^6.7.0",
-    "typescript": "^5.1.6",
-    "vite": "^4.4.8",
+    "typescript": "^5.0.4",
+    "vite": "^4.3.9",
     "express": "^4.17.1"
   },
   "packageManager": "pnpm@7.9.5",
